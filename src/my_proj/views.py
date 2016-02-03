@@ -10,3 +10,4 @@ class AboutPage(generic.TemplateView):
 
 class GBNC(generic.TemplateView):
     template_name = "menug.html"
+
