@@ -8,8 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{% block description %}{% endblock description %}">
+<<<<<<< HEAD
     <meta name="author" content="Akankshya Kar">
     <link rel="shortcut icon" href="{% static 'site/ico/logo.ico' %}">
+=======
+    <meta name="author" content="Arun Ravindran">
+    <link rel="shortcut icon" href="{% static 'site/ico/favicon.png' %}">
+>>>>>>> de1fc8ec26e7c428cfe0861a1f54602a03dbb07f
 
     <title>{% block title %}{% include "_brandname.html" %} :: {% endblock %}</title>
 
@@ -46,7 +51,11 @@
           </button>
           <a class="navbar-brand" href="{% url 'home' %}">
             {% block navbar-brand %}
+<<<<<<< HEAD
               <!--><img src="{% static 'site/img/logo.png' %}" alt="logo"><-->
+=======
+              <!--<img src="{% static 'site/img/logo.png' %}" alt="logo">-->
+>>>>>>> de1fc8ec26e7c428cfe0861a1f54602a03dbb07f
               {% include "_brandname.html" %}
             {% endblock %}
           </a>
